@@ -188,6 +188,11 @@
       "required": true
     }
   },
+        "HEROKU_MODE": {
+            "description": "Warning ⚠️! don't Change this, if you change this it will cause of banning your heroku account!",
+            "required": false,
+            "value": "ENABLE"
+        },
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
